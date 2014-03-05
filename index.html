@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Mark Kelly - Software Engineer Online Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!-- Le styles -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/flexslider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Le javascript -->
+  <script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+  <script src="js/Chart.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/graphs.js"></script>
+
+
+
+<script>
+  Modernizr.addTest('intro',function() {
+
+    var div = document.createElement('div');
+
+    if ('backgroundClip' in div.style)
+      return true;
+
+    'Webkit Moz O ms Khtml'.replace(/([A-Za-z]*)/g,function(val) { 
+      if (val+'BackgroundClip' in div.style) return true;
+    });
+
+  });
+</script>
+
+
+
+<style type="text/css"  media="all">
+
+#intro h1 {
+  background: url(img/rock1.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#intro h1 {
+  color: orangered;
+}
+
+#intro span{
+    width: 960px;
+    margin: 0 auto;
+    font-size: 140px;
+    line-height: 160px;
+    top: -10px;
+    font-family: "comic sans ms";
+    text-transform: uppercase;
+}
+
+.dark {
+    background: #2e343d;
+}
+
+.center {
+float: none;
+margin-left: auto;
+margin-right: auto;
+width:800px;
+}
+
+.circle {
+position: relative;
+margin: 0em auto;
+width: 12em;
+height: 12em;
+line-height: 20px;
+border-radius: 8em;
+float: left;
+font-size: 16px;
+}
+
+.white{
+    color:#fff;
+}
+
+.brown{
+    color:#c57676;
+}
+
+.green{
+    color:#439d47;
+}
+
+.purple{
+    color:#b85fb8;
+}
+
+.lightblue{
+    color:#7bc2c3;
+}
+
+.lightgreen{
+    color:#75b475;
+}
+
+.five{
+    margin-top:5%;
+}
+
+.twenty-five{
+    margin-top:25%;
+}
+
+</style>
+
+
+
+
+
+
+
+</head>
+<body id="top">
+
+
+
+	<!-- Header -->
+	<header id="header">
+    	<div class="container">
+            <!-- Logo -->
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li class="current-menu-item"><a href="#top">Top</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#apps">Apps</a></li>
+                    <li><a href="#websites">Websites</a></li>
+                    <li><a href="#opensource">OpenSource</a></li>
+                    <li><a href="#get-in-touch">Get In Touch</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><!-- #header -->
+ 
+ 
+ 
+ 
+ 
+    
+    <!-- Main Image -->
+    <article class="page even" id="intro">
+    
+    	<h1><span>Mark Kelly</span></h1>
+       	
+   	</article>
+    <!-- #Main Image -->    
+  
+
+
+    
+    <!-- Skills Page -->
+    <article class="page even" id="skills">
+    
+    	<div class="container">
+            <div class="page-title"><a href="#top"><h1>My skills</h1></a></div>
+            
+            <p> <a href="resume">Download My Full CV</a> </p>
+       </div>
+        
+        
+        <!-- <div class="img">
+	    	<img style="margin:0px auto;display:block" src="img/pictures/skills.png" alt="" title=""/>
+	    	</div> --> 
+        <div class="center">
+            <div class="circle dark">
+                <div class='white five'><span class='lightblue'>&lt;script&gt;</span><br />
+                    <br />
+                    <span class='brown'>var</span> Javscript,<br />
+                    Jquery,<br />
+                    Backbone.js,<br />
+                    Require.js,<br />
+                    Underscore.js;<br />
+                    <br />
+                    <span class='lightblue'>&lt;/script&gt;</span>
+                </div>
+            </div>
+
+
+            <div class="circle dark">
+                <div class='white twenty-five'><span class='lightblue'>&lt;?php</span><br />
+                    <br />
+                    <span class='brown'>echo</span> "PHP";<br />
+
+                    <br />
+                    <span class='lightblue'>?&gt;</span>
+                </div>
+            </div>
+
+            <div class="circle dark">
+                <div class='white twenty-five'><span class='lightblue'>&lt;style&gt;</span><br />
+                    <br />
+                    /**** CSS  ****/
+                    <br />
+                    <br />
+                    <span class='lightblue'>&lt;/style&gt;</span>
+                </div>
+            </div>
+
+            <div class="circle dark">
+                <div class='white twenty-five'>
+
+                        /**** SQL  ****/
+                        <br />
+                        <span class='purple'>
+                        SELECT * <br />
+                        FROM <span class="lightgreen">tbl_customers</span><br />
+                        WHERE <span class="lightblue">1=1</span>
+                        <br />
+                        <br />
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix" />
+        
+   	</article>
+    <!-- #skills -->    
+
+
+
+  <!-- Apps Page -->
+    <article class="page portfolio" id="apps">
+    
+    	<div class="container">
+            <div class="page-title"><a href="#top"><h1>Some Mobile Apps</h1></a></div>
+
+            
+       	</div>
+
+
+        <div class="widget-area">
+        	<div class="container">
+            	<!-- Item -->
+                <div class="widget widget-teaser width-25">
+                    <img src="img/pearse.jpeg" />
+                    <h2 class="widget-title">Pearse College</h2>
+                    <div class="widget-content">
+                    	Mobile app for Pearse College, Crumlin, Dublin
+                    </div>
+                </div>
+            	<!-- Item -->
+                <div class="widget widget-teaser width-25">
+                    <img src="img/mallow.jpeg" />
+                    <h2 class="widget-title">Mallow College</h2>
+                    <div class="widget-content">
+                    	Mobile app for Mallow College, Co Cork that uses Push Notification to communicate with teachers
+                    </div>
+                </div>
+            	<!-- Item -->
+                <div class="widget widget-teaser width-25">
+                    <img src="img/causeway.jpeg" />
+                    <h2 class="widget-title">Causeway Comprehensive</h2>
+                    <div class="widget-content">
+                    	 Mobile app for Causeway Community College, Co Kerry. 
+                    </div>
+                </div>
+                
+                <div class="widget widget-teaser width-25">
+                    <img src="img/rm.jpeg" />
+                    <h2 class="widget-title">Red Matter</h2>
+                    <div class="widget-content">
+                    	 Mobile app to provide blood-analytic tools to haematologists on the move (in association with DIT)
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </article>
+    <!-- #apps -->   
+    
+    
+<!-- Apps Page -->
+    <article class="page portfolio" id="websites">
+    
+    	<div class="container">
+            <div class="page-title"><a href="#top"><h1>Some Websites</h1></a></div>
+
+            
+       	</div>
+
+
+        <div class="widget-area">
+        	<div class="container">
+            	<!-- Item -->
+                <div class="widget widget-teaser width-50">
+                    <a href="www.comhype.com"><img src="img/comhype.png" /></a>
+                    <h2 class="widget-title">Comhype</h2>
+                    <div class="widget-content">
+                    	Sole developer of Comhype, a stock-exchange Social Network that values people based on their content
+                    </div>
+                </div>
+            	<!-- Item -->
+                <div class="widget widget-teaser width-50">
+                    <a href="www.spaireland.com"><img src="img/spaireland.png" /></a>
+                    <h2 class="widget-title">Spa Ireland</h2>
+                    <div class="widget-content">
+                    	Part of team which built Spa Ireland, a Hotel & Spa Reservation site
+                    </div>
+                </div>
+
+                <div class='clearfix'></div>
+            	<!-- Item -->
+                <div class="widget widget-teaser width-50">
+                    <a href="www.spaireland.com"><img src="img/guinness.png" /></a>
+                    <h2 class="widget-title">Guiness Storehouse</h2>
+                    <div class="widget-content">
+                    	Part of team which built Guinness Storehouse website
+                    </div>
+                </div>      
+                
+            	<!-- Item -->
+                <div class="widget widget-teaser width-50">
+                    <a href="www.spaireland.com"><img src="img/nab.png" /></a>
+                    <h2 class="widget-title">National Australia Bank</h2>
+                    <div class="widget-content">
+                    	Part of team which maintained National Australia Ban website
+                    </div>
+                </div>     
+                
+            </div>
+        </div>
+        
+    </article>
+    <!-- #apps -->   
+
+
+    <article class="page portfolio" id="opensource">
+    
+    	<div class="container">
+            <div class="page-title"><a href="#top"><h1>Open Source</h1></a></div>
+    
+       	</div>
+
+
+        <div class="widget-area">
+        	<div class="container">
+            	<!-- Item -->
+                <div class="widget widget-teaser width-50">
+                    <a href="https://github.com/Zander1983"><img src="img/github.jpg" /></a>
+                    <h2 class="widget-title">Github</h2>
+                    <div class="widget-content">
+                    	Check out my github account
+                    </div>
+                </div>
+            	<!-- Item -->
+                <div class="widget widget-teaser width-50">
+                    <a href='http://elggstore.webintelligence.ie/'><img src="img/elgg.png" /></a>
+                    <h2 class="widget-title">Plugins</h2>
+                    <div class="widget-content">
+                    	Some open source and commercial plugins for the social network PHP based <VC framework, Elgg
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </article>
+
+    
+    <!-- Contact Page -->
+    <article class="page portfolio even" id="get-in-touch">
+    
+    	<div class="container">
+        	<div class="page-title"><a href="#top"><h1>Get In Touch</h1></a></div>
+            <p>I would love to hear from you! Get in touch with me.</p>
+            
+            <div class="address">
+                    <div class="row">
+                            <p><strong><img src="img/call.svg" />+353871661595</strong></p>
+	                    <p><strong><img src="img/email.svg" />markkelly1983 [at] yahoo.co.uk</strong></p>
+	                    <p>I am located in Dublin and am looking for positions here as well as London</p>
+
+	            </div>
+            </div>
+	            
+       	</div>
+                
+   	</article>
+    <!-- #get-in-touch -->
+    
+    
+    <!-- Footer -->
+       	<!-- Copyright -->
+    	<section id="copyright">
+	    
+        </section>	
+
+    <!-- #footer -->
+    
+
+	<!-- Le javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.mobilemenu.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.simplemodal.1.4.3.min.js"></script>
+	<script src="js/jquery.tweet.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj3DA7bdxu7m7EKVYR_bKeDKuHOn9Vg9A&sensor=true"></script>
+	<script src="js/main.js"></script>     
+</body>
+</html>
+
