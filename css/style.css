@@ -180,6 +180,8 @@ article .widget-area .widget { border-right: #e9e9e9 1px dashed; }
 
 .width-50 { width: 48%; float: left; }
 
+.width-20 { width: 19%; float: left; }
+
 
 /* PORTFOLIO & STAFF */
 .portfolio-items, .staff-items { margin: 76px 0 39px; }

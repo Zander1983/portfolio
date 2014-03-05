@@ -91,6 +91,14 @@ font-size: 16px;
     color:#c57676;
 }
 
+.grey{
+    color:#636363;
+}
+
+.pink{
+    color:#ff8bff;
+}
+
 .green{
     color:#439d47;
 }
@@ -103,6 +111,10 @@ font-size: 16px;
     color:#7bc2c3;
 }
 
+.lightlightblue{
+    color:#b6ddde;
+}
+
 .lightgreen{
     color:#75b475;
 }
@@ -113,6 +125,10 @@ font-size: 16px;
 
 .twenty-five{
     margin-top:25%;
+}
+
+.fifteen{
+    margin-top:15%;
 }
 
 </style>
@@ -137,7 +153,8 @@ font-size: 16px;
             <nav>
                 <ul>
                     <li class="current-menu-item"><a href="#top">Top</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#skills">Skills Short</a></li>
+                    <li><a href="#skills-details">Skills Long</a></li>
                     <li><a href="#apps">Apps</a></li>
                     <li><a href="#websites">Websites</a></li>
                     <li><a href="#opensource">OpenSource</a></li>
@@ -167,7 +184,7 @@ font-size: 16px;
     <article class="page even" id="skills">
     
     	<div class="container">
-            <div class="page-title"><a href="#top"><h1>My skills</h1></a></div>
+            <div class="page-title"><a href="#top"><h1>Skills at a Glance</h1></a></div>
             
             <p> <a href="resume">Download My Full CV</a> </p>
        </div>
@@ -202,11 +219,16 @@ font-size: 16px;
             </div>
 
             <div class="circle dark">
-                <div class='white twenty-five'><span class='lightblue'>&lt;style&gt;</span><br />
+                <div class='white fifteen'><span class='lightblue'>&lt;style&gt;</span><br />
                     <br />
                     /**** CSS  ****/
                     <br />
-                    <br />
+                    <span class='white'>
+                        <span class='lightlightblue'>.white</span>{<br />
+                            <span class='brown'>color</span>:<span class='pink'>#fff</span>;
+                        <br />
+                        }<br />
+                    </span>
                     <span class='lightblue'>&lt;/style&gt;</span>
                 </div>
             </div>
@@ -232,6 +254,75 @@ font-size: 16px;
     <!-- #skills -->    
 
 
+  <!-- Skills Page -->
+    <article class="page even" id="skills-details">
+    
+    	<div class="container">
+            <div class="page-title"><a href="#top"><h1>Skills Details</h1></a></div>
+
+       </div>
+        
+        <div class="widget-area">
+        	<div class="container">
+            	<!-- Item -->
+                <div class="widget widget-teaser width-20">
+
+                    <h2 class="widget-title">Javascript Frameworks</h2>
+                    <div class="widget-content">
+                    	Jquery<br />
+                        Backbone.js<br />
+                        Require.js<br />
+                        Underscore.js<br />
+                        Jquery Mobile<br />
+                    </div>
+                </div>
+            	<!-- Item -->
+                <div class="widget widget-teaser width-20">
+                    <h2 class="widget-title">PHP Frameworks</h2>
+                    <div class="widget-content">
+                    	Yii framework<br />
+                        Elgg<br />
+                    </div>
+                </div>
+            	<!-- Item -->
+                <div class="widget widget-teaser width-20">
+                    <h2 class="widget-title">Database</h2>
+                    <div class="widget-content">
+                    	  MySQL<br /> 
+                          SQL Server<br /> 
+                          Orale<br /> 
+                          MS Access<br />
+                    </div>
+                </div>
+
+                
+                <div class="widget widget-teaser width-20">
+                    <h2 class="widget-title">REST API</h2>
+                    <div class="widget-content">
+                    	 JSON<br />
+                         Slim Framework<br />
+                    </div>
+                </div>
+                
+                <div class="widget widget-teaser width-20">
+                    <h2 class="widget-title">Other</h2>
+                    <div class="widget-content">
+                         CSS3<br />
+                    	 VB.NET<br /> 
+                         ColdFusion<br /> 
+                         Xml<br /> 
+                         Java<br />
+                         C++<br /> 
+                         VBA<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix" />
+        
+   	</article>
+    <!-- #skills -->    
+    
 
   <!-- Apps Page -->
     <article class="page portfolio" id="apps">
